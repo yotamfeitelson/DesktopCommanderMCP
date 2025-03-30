@@ -1,0 +1,18 @@
+/* Main CSS file that imports all component CSS files */
+
+/* Base styles and variables */
+@import 'base.css';
+
+/* Component-specific styles */
+@import 'header.css';
+@import 'hero.css';
+@import 'features.css';
+@import 'demo.css';
+@import 'installation.css';
+@import 'usage.css';
+@import 'community.css';
+@import 'faq.css';
+@import 'footer.css';
+
+/* Responsive styles */
+@import 'responsive.css';

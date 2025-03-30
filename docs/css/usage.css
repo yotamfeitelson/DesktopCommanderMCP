@@ -1,0 +1,62 @@
+/* Download/Usage Section */
+.download {
+    padding: var(--section-padding);
+    background: var(--primary-color);
+    color: var(--light-text);
+    text-align: center;
+}
+
+.download h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.download p {
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin: 0 0 30px;
+}
+
+.download-options {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.download-card {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 30px;
+    border-radius: 10px;
+    text-align: left;
+    transition: all 0.3s ease;
+}
+
+.download-card:hover {
+    transform: translateY(-5px);
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.download-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.download-card p {
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 576px) {
+    .download-options {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .download-card {
+        width: 100%;
+    }
+}
