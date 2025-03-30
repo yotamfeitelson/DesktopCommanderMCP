@@ -55,7 +55,7 @@ First, ensure you've downloaded and installed the [Claude Desktop app](https://c
 ### Option 1: Checkout locally
 1. Clone and build:
 ```bash
-git clone https://github.com/yfeitelson/ClaudeComputerCommander.git
+git clone https://github.com/yotamfeitelson/DesktopCommanderMCP.git
 cd ClaudeComputerCommander
 npm run setup
 ```
