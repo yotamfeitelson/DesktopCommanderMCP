@@ -1,11 +1,11 @@
 {
-  "name": "@wonderwhy-er/desktop-commander",
+  "name": "@yotamfeitelson/desktop-commander",
   "version": "0.1.24",
   "description": "MCP server for terminal operations and file editing",
   "license": "MIT",
   "author": "Eduards Ruzga",
-  "homepage": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
-  "bugs": "https://github.com/wonderwhy-er/DesktopCommanderMCP/issues",
+  "homepage": "https://github.com/yotamfeitelson/DesktopCommanderMCP",
+  "bugs": "https://github.com/yotamfeitelson/DesktopCommanderMCP/issues",
   "type": "module",
   "engines": {
     "node": ">=18.0.0"
@@ -66,7 +66,7 @@
     "zod-to-json-schema": "^3.23.5"
   },
   "devDependencies": {
-    "@types/node": "^20.17.24",
+    "@types/node": "^20.17.28",
     "nodemon": "^3.0.2",
     "shx": "^0.3.4",
     "typescript": "^5.3.3"

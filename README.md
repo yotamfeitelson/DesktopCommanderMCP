@@ -51,47 +51,11 @@ This is server that allows Claude desktop app to execute long-running terminal c
 ## Installation
 First, ensure you've downloaded and installed the [Claude Desktop app](https://claude.ai/download) and you have [npm installed](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).
 
-### Option 1: Installing via Smithery
 
-To install Desktop Commander for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@wonderwhy-er/desktop-commander):
-
-```bash
-npx -y @smithery/cli install @wonderwhy-er/desktop-commander --client claude
-```
-
-### Option 2: Install trough npx
-Just run this in terminal
-```
-npx @wonderwhy-er/desktop-commander setup
-```
-Restart Claude if running
-
-### Option 3: Add to claude_desktop_config by hand
-Add this entry to your claude_desktop_config.json:
-
-- On Mac: `~/Library/Application\ Support/Claude/claude_desktop_config.json`
-- On Windows: `%APPDATA%\Claude\claude_desktop_config.json`
-- On Linux: `~/.config/Claude/claude_desktop_config.json`
-
-```json
-{
-  "mcpServers": {
-    "desktop-commander": {
-      "command": "npx",
-      "args": [
-        "-y",
-        "@wonderwhy-er/desktop-commander"
-      ]
-    }
-  }
-}
-```
-Restart Claude if running
-
-### Option 4: Checkout locally
+### Option 1: Checkout locally
 1. Clone and build:
 ```bash
-git clone https://github.com/wonderwhy-er/ClaudeComputerCommander.git
+git clone https://github.com/yfeitelson/ClaudeComputerCommander.git
 cd ClaudeComputerCommander
 npm run setup
 ```
