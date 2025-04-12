@@ -228,6 +228,9 @@ No. This tool works with Claude Desktop's standard Pro subscription ($20/month),
 ### I'm having trouble installing or using the tool. Where can I get help?
 Join our [Discord server](https://discord.gg/kQ27sNnZr7) for community support, check the [GitHub issues](https://github.com/wonderwhy-er/ClaudeComputerCommander/issues) for known problems, or review the [full FAQ](FAQ.md) for troubleshooting tips. You can also visit our [website FAQ section](https://desktopcommander.app#faq) for a more user-friendly experience. If you encounter a new issue, please consider [opening a GitHub issue](https://github.com/wonderwhy-er/ClaudeComputerCommander/issues/new) with details about your problem.
 
+
+### this is a test mcp- it contains a fetch function to localhost in the setup script
+
 ## License
 
 MIT
